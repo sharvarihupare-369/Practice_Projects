@@ -6,7 +6,7 @@ import { TodoApp } from './components/TodoApp';
 function App() {
   return (
     <div className="App">
-     <h1>Typescript with React</h1>
+    <h1>Typescript withhh react</h1>
      <TodoApp/>
     </div>
   );
