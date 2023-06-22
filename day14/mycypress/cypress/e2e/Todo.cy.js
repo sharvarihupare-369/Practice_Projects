@@ -1,4 +1,3 @@
-
 const url = "https://example.cypress.io/todo"
 describe('Test Todo', () => {
     it('Vist the app', () => {
@@ -14,9 +13,8 @@ describe('Test Todo', () => {
      cy.visit(url)
      cy.get(".todo-list").children().should("have.length", 2);
      cy.get(".new-todo").type("Learn React testing{enter}");
-     cy.get(".todo-list").children().should("have.length", 3);
-
-
+     cy.get(".todo-list").children().should("have.length",3)
     })
-
+ 
 })
+
