@@ -1,0 +1,11 @@
+{
+  "students": [
+    { "name": "Chunnu", "city": "Manali" },
+    { "name": "Munnu", "city": "Goa" },
+    { "name": "Sharvari", "age": "Kolhapur" }
+  ],
+  "teachers": [
+    { "name": "Pulkit", "sub": "Coding" },
+    { "name": "Venu", "sub": "DSA" }
+  ]
+}
